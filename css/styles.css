@@ -3,6 +3,7 @@
     padding: 0;
      margin: 0;
    }
+  
 
    header {
     background: rgba(219, 229, 232, 0.9);
@@ -106,9 +107,11 @@ h3{
 }
 #FormacionAcademica h1{
     color: #ffffff;
+    margin-top: 100px;
 }
 #habilidades h1{
     color: #ffffff;
+    margin-top: 100px;
 }
 
 /*habilidades section*/
@@ -363,4 +366,7 @@ footer{
     text-align: center;
 }
 
-
+html{
+    scroll-behavior: smooth;
+    scroll-margin-top: 100px;
+   }
